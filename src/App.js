@@ -1,4 +1,11 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+
 function App() {
-  return <h2>Redux Toolkit</h2>;
+  return (
+    <React.Fragment>
+      <Navbar />
+    </React.Fragment>
+  );
 }
 export default App;
